@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroEndereco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".activity_cadastro_usuario">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastroEnderecoTittle"
+            style="@style/textTitulo">
+        </TextView>
+
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCep"
+            android:hint="@string/txtCep"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNumero"
+            android:hint="@string/txtNumero"
+            android:inputType="text">
+
+        </EditText>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtComplemento"
+            android:hint="@string/txtComplemento"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+        <Button
+            style="@style/btnForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonTextCadastroEndereco"
+            android:text="@string/cadastroUsuario">
+
+
+        </Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

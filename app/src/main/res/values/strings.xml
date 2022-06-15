@@ -1,0 +1,27 @@
+  <resources>
+        <string name="app_name">Software-house - Cadastro</string>
+        <string name="cadastroUsuarioTittle">CADASTRO DE USUÁRIOS</string>
+        <string name="txtNome">NOME</string>
+        <string name="txtSobreNome">SOBRENOME</string>
+        <string name="txtSenha">SENHA</string>
+        <string name="txtLogin">LOGIN</string>
+        <string name="txtEmail">E-MAIL</string>
+        <string name="cadastroUsuario">CADASTRAR</string>
+        <string name="titulo_cadastro_usuario">CADASTRO DE USUARIO</string>
+        <string name="mensagem_cadastro_usuario">VOCE ESTA CADASTRANDO UM USUARIO</string>
+        <string name="salvar">SALVAR</string>
+        <string name="cancelar">CANCELAR</string>
+        <string name="cadastroLivroTittle">CADASTRO DE LIVRO
+    </string>
+        <string name="txtTituloLivro">TITULO</string>
+        <string name="txtDescricao">DESCRIÇÃO</string>
+        <string name="txtFotoLivro">FOTO</string>
+        <string name="mensagem_cadastro_livro">VOCE ESTA CADASTRANDO UM LIVRO</string>
+        <string name="buttonLogar">ENTRAR</string>
+      <string name="cadastroEnderecoTittle">CADASTRO DE ENDEREÇO</string>
+      <string name="txtCep">CEP</string>
+      <string name="txtNumero">NÚMERO</string>
+      <string name="txtComplemento">COMPLEMENTO</string>
+      <string name="mensagem_cadastro_endereco">VOCE ESTA CADASTRANDO UM ENDEREÇO</string>
+      <string name="titulo_cadastro_endereco">CADASTRO DE ENDEREÇO</string>
+  </resources>
